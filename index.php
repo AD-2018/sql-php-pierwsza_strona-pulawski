@@ -4,10 +4,12 @@
 </head>
 <body>
 <?php
-$servername = "mysql-pawelpulawski123.alwaysdata.net";
-$username = "218263";
-$password = "Q@wertyuiop";
-$dbname = "pawelpulawski123_jd	";
+$servername = "mysql-kcz.alwaysdata.net";
+$username = "kcz";
+$password = "zaq1@WSX";
+$dbname = "kcz_20";
+
+$conn = new mysqli($servername, $username, $password, $dbname);
  
 $conn = new mysqli($servername, $username, $password, $dbname);
  
