@@ -2,6 +2,7 @@
 <head>
 <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
+<body>
 <?php
 $servername = "mysql-pawelpulawski123.alwaysdata.net";
 $username = "218263";
@@ -22,4 +23,5 @@ while($row = mysqli_fetch_assoc($result) ) {
 }
 echo('</table>');
 ?>
+</body>
 </html>
