@@ -1,12 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
 <?php
-echo("jestes w insert.php");
-echo $_POST['name'];
+echo("jesteś w insert.php");
+
+echo("<ul>");
+	
+echo("<li>".$_POST["imie"]);
+		
+echo("<ul>");
 ?>
-  </body>
-</html>
