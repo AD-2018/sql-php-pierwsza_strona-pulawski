@@ -11,7 +11,7 @@ if ($conn->connect_error) {
 }
 
 $sql = "INSERT INTO pracownicy (id, imie, dzial, zarobki,data_urodzenia) 
-       VALUES (null,'Balbina', 4, 86,'1999-05-21')";
+       VALUES (null,".'"'.$_POST['imie'].'"'.','.$_POST['dzial'].','.$_POST['zarobki'].','.'"'.$_POST['data_urodzenia'].'"'.')';
 
 
 if ($conn->query($sql) === TRUE) {
