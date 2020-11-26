@@ -18,7 +18,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 $conn = new mysqli($servername, $username, $password, $dbname);
  
 $sql= "SELECT * FROM pracownicy";
-echo("<h3>zadanie </h3>");
+echo("<h1>Paweł Puławski </h1>");
 echo("<li>".$sql."<br><br>");
 $result = mysqli_query($conn, $sql);
 echo('<table border="1" class="tabelka_moja">');
