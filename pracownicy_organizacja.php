@@ -5,21 +5,17 @@
 </head>
 <body>
     
-    <h1>Filip Jabłoński</h1>
+    <h1>Paweł Puławski</h1>
 <nav>
     <br>
-    <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-FilipJablonski">Github</a>
+    
     <br>
     <br>
     <div class="nav">
-         <a href="index.php">Strona Główna</a>  
-         <a href="pracownicy.php">Pracownicy</a>
-         <a href="pracownicy_organizacja.php">Pracownicy i Organizacja</a>   
-         <a href="funkcje_agregujace.php">Funkcje Agregujace</a>  
-         <a href="data_czas.php">Data i Czas</a>
-         <a href="nieobecnosci.php">Nieobecności Pracowników</a>
-         <a href="strona.php">Strona</a>
-         <a href="daneDoBazy.php">Dane Do Bazy</a>
+         <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">•github</a>
+         <a href="formularz.html">formularze</a>
+         <a href="danedobazy.html">dodawanie/usuwanie pracownika</a>
+         <a href="pracownicy_organizacja.php">Pracownicy i Organizacja pracownika</a>
     </div>
     <br>
 </nav>
@@ -29,6 +25,11 @@ $servername = "mysql-kcz.alwaysdata.net";
 $username = "kcz";
 $password = "zaq1@WSX";
 $dbname = "kcz_20";
+    $conn = new mysqli($servername, $username, $password, $dbname);
+
+if ($conn->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+}
 
 echo("<h2>Pracownicy i Organizacja</h2>");
     $sql ="select * from pracownicy,organizacja where id_org=dzial group by imie"; 
