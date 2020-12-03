@@ -5,9 +5,8 @@
 <body>
  <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">•github</a>
  <a href="formularz.html">formularze</a>
- <a href="danedobazy.html">dodawanie/usuwanie pracownika</a>
  <a href="pracownicy_organizacja.php">Pracownicy i Organizacja </a>
- 
+ <a href="danedobazy.php">dodawanie/usuwanie pracownika</a>
 <?php
 $servername = "mysql-kcz.alwaysdata.net";
 $username = "kcz";
