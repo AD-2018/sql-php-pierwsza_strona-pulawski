@@ -1,4 +1,4 @@
-?php
+<?php
 echo("jestes w delete.php <br>");
 echo $_POST['id'];
 
