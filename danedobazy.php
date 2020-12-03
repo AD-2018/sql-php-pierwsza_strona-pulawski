@@ -35,7 +35,11 @@ $sql= "SELECT * FROM pracownicy";
 echo("<h1>Paweł Puławski </h1>");
 echo("<li>".$sql."<br><br>");
 $result = mysqli_query($conn, $sql);
-echo('<table border="1" class="tabelka_moja">');
+echo ("<br>");
+    echo($sql);
+    echo('<table border="1">');
+    echo('<th>ID</th><th>Imię</th><th>Dział</th><th>Zarobki</th><th>Data urodzenia</th><th>Usuwanie pracowników</th>');
+
 while($row = mysqli_fetch_assoc($result) ) {
    echo('<tr>');
    echo('<td>'.$wiersz['id_pracownicy'].'</td>'.'<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['dzial'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>'.'<td>'.$wiersz['data_urodzenia'].'</td>'.
