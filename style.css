@@ -1,1 +1,27 @@
+body {
+  background-color: blue;
+}
 
+table {
+  border-collapse: collapse;
+}
+
+th {
+  height: 70px;
+}
+td {
+  text-align: center;
+}
+th {
+  text-align: center;
+}
+tr:nth-child(even) {background-color: yellow;}
+th {
+  background-color:black ;
+  color: white;
+}
+<h1>
+{
+  color: lightcyan;
+}
+</h1>
