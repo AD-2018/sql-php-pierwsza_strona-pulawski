@@ -26,33 +26,34 @@ $servername = "mysql-kcz.alwaysdata.net";
 $username = "kcz";
 $password = "zaq1@WSX";
 $dbname = "kcz_20";
-
 $conn = new mysqli($servername, $username, $password, $dbname);
- 
-$conn = new mysqli($servername, $username, $password, $dbname);
- 
-$sql= "SELECT * FROM pracownicy";
-echo("<h1>Paweł Puławski </h1>");
-echo("<li>".$sql."<br><br>");
-$result = mysqli_query($conn, $sql);
-echo ("<br>");
-    echo($sql);
-    echo('<table border="1">');
-    echo('<th>ID</th><th>Imię</th><th>Dział</th><th>Zarobki</th><th>Data urodzenia</th><th>Usuwanie pracowników</th>');
 
-while($row = mysqli_fetch_assoc($result) ) {
-   echo('<tr>');
-   echo('<td>'.$wiersz['id_pracownicy'].'</td>'.'<td>'.$wiersz['imie'].'</td>'.'<td>'.$wiersz['dzial'].'</td>'.'<td>'.$wiersz['zarobki'].'</td>'.'<td>'.$wiersz['data_urodzenia'].'</td>'.
-	     
+$sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+      }
+
+    $result = mysqli_query($conn, $sql);
+    if ( $result) {
+         echo "<br>";
+     } else {
+       echo "Error: " . $sql . "<br>" . mysqli_error($conn);
+     }
+
+    echo("<h1>Tabelka</h1>");
+
+    echo("<table border='1'>");
+    echo("<th>ID</th><th>Imie</th><th>Zarobki</th><th>Data Urodzenia</th><th>Dzial</th><th>Nazwa dzialu</th><th>Usuń Pracownika</th>");
+        while($row = mysqli_fetch_assoc($result)) {
+            echo('<tr>');
+            echo('<td>'.$row['id_pracownicy'].'</td><td>'.$row['imie'].'</td><td>'.$row['zarobki'].'</td><td>'.$row['data_urodzenia'].'</td><td>'.$row['dzial'].'</td><td>'.$row['nazwa_dzial'].'</td>'.
 	     '<td>
 	    
 	     <form action="delete.php" method="POST">
   		<input name="id" value="'.$row['id_pracownicy'].'" hidden>
-   		<input type="submit" value="Usuń Pracownika">
-	     
+   		<input type="submit" value="X">
 	     </form>
-	     
-	     </td>');
    echo('</tr>');
 }
 echo('</table>');
