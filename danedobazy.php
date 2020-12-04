@@ -54,6 +54,7 @@ $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
   		<input name="id" value="'.$row['id_pracownicy'].'" hidden>
    		<input type="submit" value="X">
 	     </form>
+	     </td>
    echo('</tr>');
 }
 echo('</table>');
