@@ -7,6 +7,14 @@
   <title>Prosty Formuarz</title>
 </head>
 <body>
+ <a href="index.php">Strona główna</a>
+ <br>
+ <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">•github</a>
+ <br>
+ <a href="formularz.html">formularze</a>
+ <br>
+ <a href="pracownicy_organizacja.php">Pracownicy i Organizacja </a>
+ 
 
 <h3>dodawanie pracownika</h3>
 <form action="insert.php" method="POST">
