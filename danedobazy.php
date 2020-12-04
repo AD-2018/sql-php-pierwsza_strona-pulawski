@@ -47,8 +47,9 @@ while($row = mysqli_fetch_assoc($result) ) {
 	     '<td>
 	    
 	     <form action="delete.php" method="POST">
-  		<input type="text" name="id_pracownicy" value="'.$row["id_pracownicy"].'" hidden>
-   		<input type="submit" value="Usuń pracownika">
+  		<input name="id" value="'.$row['id_pracownicy'].'" hidden>
+   		<input type="submit" value="Usuń Pracownika">
+	     
 	     </form>
 	     
 	     </td>');
