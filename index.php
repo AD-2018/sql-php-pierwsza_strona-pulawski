@@ -4,8 +4,11 @@
 </head>
 <body>
  <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">•github</a>
+ <br>
  <a href="formularz.html">formularze</a>
+ <br>
  <a href="pracownicy_organizacja.php">Pracownicy i Organizacja </a>
+ <br>
  <a href="danedobazy.php">dodawanie/usuwanie pracownika</a>
 <?php
 $servername = "mysql-kcz.alwaysdata.net";
