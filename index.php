@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="styles.css">
   <title>
-    Rozsuwane menu boczne w samym CSS 
+    Strona główna 
   </title>
 </head>
 <body>
