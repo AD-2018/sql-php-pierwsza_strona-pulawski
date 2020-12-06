@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
   <title>
-    Strona główna 
+    Strona główna
   </title>
 </head>
 <body>
@@ -36,6 +36,5 @@
       </ul>
   </aside>
   </nav>
-
-</body>
+  
 </html>
