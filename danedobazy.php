@@ -1,19 +1,46 @@
 <!DOCTYPE html>
-<html>
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Prosty Formuarz</title>
+  <link rel="stylesheet" href="style.css">
+  <title>
+    Strona główna
+  </title>
 </head>
 <body>
- <a href="index.php">Strona główna</a>
- <br>
- <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">•github</a>
- <br>
- <a href="formularz.html">formularze</a>
- <br>
- <a href="pracownicy_organizacja.php">Pracownicy i Organizacja </a>
+  <nav class="site-nav">
+    <button class="side-menu-trigger">Menu</button>
+    <aside class="side-menu">
+      <ul>
+        <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="formularz.html">
+            Formularze
+          </a>
+        </li>
+        <li>
+          <a href="pracownicy_organizacja.php">
+            Pracownicy i Organizacja
+          </a>
+        </li>
+        <li>
+          <a href="danedobazy.php">
+            Dodawanie i usuwanie pracownika
+          </a>
+        </li>
+        <li>
+          <a href="zabijesiezaraz.php">
+            ćwiczenia indywidualne
+          </a>
+        </li>
+      </ul>
+  </aside>
+  </nav>
+  <h1>Paweł Puławski <h1>
  
 
 <h3>dodawanie pracownika</h3>
