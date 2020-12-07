@@ -17,12 +17,7 @@
             Github
           </a>
         </li>
-        </li
-        <li>
-          <a href="formularz.html">
-            Formularze
-          </a>
-        </li>
+        
         <li>
           <a href="pracownicy_organizacja.php">
             Pracownicy i Organizacja
@@ -38,6 +33,10 @@
             Funkcje agregujące 
           </a>
         </li>
+      <li>
+          <a href="index.php">
+            Strona główna
+          </a>
       </ul>
   </aside>
   </nav>
