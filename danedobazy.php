@@ -11,25 +11,25 @@
   <nav class="site-nav">
     <button class="side-menu-trigger">Menu</button>
     <aside class="side-menu">
-      <ul>
-	<li>
-          <a href="index.php">
-            Strona Główna
-          </a>
-        </li>      
+     <ul>
         <li>
           <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
             Github
           </a>
         </li>
         <li>
-          <a href="formularz.html">
-            Formularze
+          <a href="index.php">
+            Strona główna
           </a>
         </li>
         <li>
           <a href="pracownicy_organizacja.php">
-            Pracownicy i Organizacja
+            Pracownicy organizacja
+          </a>
+        </li>
+        <li>
+          <a href="funkcje_agregujace.php">
+            Funkcje Agregujące
           </a>
         </li>
         <li>
@@ -38,8 +38,8 @@
           </a>
         </li>
         <li>
-          <a href="funkcje_agregujace.php">
-            Funkcje agregujące 
+          <a href="formularz.html">
+            Formularz 
           </a>
         </li>
       </ul>
