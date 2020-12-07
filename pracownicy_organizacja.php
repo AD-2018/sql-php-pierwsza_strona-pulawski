@@ -33,8 +33,8 @@
           </a>
         </li>
         <li>
-          <a href="zabijesiezaraz.php">
-            ćwiczenia indywidualne
+          <a href="funkcje_agregujace.php">
+            Funkcje agregujące 
           </a>
         </li>
       </ul>
