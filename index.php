@@ -17,24 +17,29 @@
             Github
           </a>
         </li>
-        <a href="index.php">
-            Strona główna
-          </a>
-        </li>
-
         <li>
-          <a href="pracownicy_organizacja.php">
-            Pracownicy i Organizacja
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
           </a>
         </li>
         <li>
-          <a href="danedobazy.php">
-            Dodawanie i usuwanie pracownika
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
           </a>
         </li>
         <li>
-          <a href="funkcje_agregujace.php">
-            Funkcje agregujące 
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
           </a>
         </li>
       </ul>
