@@ -38,6 +38,11 @@
             Dodawanie i usuwanie pracownika
           </a>
         </li>
+        <li>
+          <a href="funkcje_agregujace.php">
+            Funkcje agregujące 
+          </a>
+        </li>
       </ul>
   </aside>
   </nav>
