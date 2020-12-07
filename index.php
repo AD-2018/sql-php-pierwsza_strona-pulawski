@@ -13,6 +13,21 @@
     <aside class="side-menu">
       <ul>
         <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
+            Github
+          </a>
+        </li>
+        <li>
           <a href="index.php">
             Strona główna
           </a>
