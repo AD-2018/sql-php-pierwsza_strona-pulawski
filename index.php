@@ -18,8 +18,8 @@
           </a>
         </li>
         <li>
-          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+          <a href="index.php">
+            Strona główna
           </a>
         </li>
         <li>
