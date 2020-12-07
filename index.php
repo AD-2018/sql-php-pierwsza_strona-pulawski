@@ -38,11 +38,6 @@
             Dodawanie i usuwanie pracownika
           </a>
         </li>
-        <li>
-          <a href="zabijesiezaraz.php">
-            ćwiczenia indywidualne
-          </a>
-        </li>
       </ul>
   </aside>
   </nav>
