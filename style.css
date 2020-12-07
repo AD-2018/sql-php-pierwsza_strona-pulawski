@@ -2,7 +2,7 @@ body {
   padding; 0;
   margin: 0;
   overflow: hidden;
-  background: green;
+  background: #127a1d;
 }
 
 .site-nav {
@@ -13,13 +13,13 @@ body {
   box-sizing: border-box;
   height: 20px;
   width: 100%;
-  background: green;
+  background: #0e6317;
 }
 
 .side-menu-trigger {
   border: 0;
   border-radius: 5px;
-  background: cyan;
+  background: #ffffff;
   
 }
 
@@ -72,6 +72,8 @@ body {
 
 .side-menu-trigger:focus ~ .side-menu, .side-menu:hover {
   transform: translateX(-300px); 
+}
+
 }
 table {
   border-collapse: collapse;
