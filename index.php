@@ -23,23 +23,23 @@
           </a>
         </li>
         <li>
-          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+          <a href="pracownicy_organizacja.php">
+            Pracownicy organizacja
           </a>
         </li>
         <li>
-          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+          <a href="funkcje_agregujace.php">
+            Funkcje Agregujące
           </a>
         </li>
         <li>
-          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+          <a href="danedobazy.php">
+            Dodawanie i usuwanie pracownika
           </a>
         </li>
         <li>
-          <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+          <a href="formularz.html">
+            Formularz 
           </a>
         </li>
       </ul>
