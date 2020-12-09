@@ -42,6 +42,10 @@
             Formularz 
           </a>
         </li>
+        <li>
+          <a href="dataczas.php">
+            Data i czas 
+          </a>
       </ul>
   </aside>
   </nav>
