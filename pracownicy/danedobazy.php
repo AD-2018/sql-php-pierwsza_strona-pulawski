@@ -28,7 +28,7 @@
           </a>
         </li>
         <li>
-          <a href="pracownicyfunkcje_agregujace.php">
+          <a href="pracownicy/funkcje_agregujace.php">
             Funkcje Agregujące
           </a>
         </li>
