@@ -23,27 +23,27 @@
           </a>
         </li>
         <li>
-          <a href="pracownicy/pracownicy_organizacja.php">
+          <a href="../pracownicy/pracownicy_organizacja.php">
             Pracownicy organizacja
           </a>
         </li>
         <li>
-          <a href="pracownicy/funkcje_agregujace.php">
+          <a href="../pracownicy/funkcje_agregujace.php">
             Funkcje Agregujące
           </a>
         </li>
         <li>
-          <a href="pracownicy/danedobazy.php">
+          <a href="../pracownicy/danedobazy.php">
             Dodawanie i usuwanie pracownika
           </a>
         </li>
         <li>
-          <a href="inne/formularz.html">
+          <a href="../inne/formularz.html">
             Formularz 
           </a>
         </li>
         <li>
-          <a href="inne/dataczas.php">
+          <a href="../inne/dataczas.php">
             Data i czas 
           </a>
       </ul>
