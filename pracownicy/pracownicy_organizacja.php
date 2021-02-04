@@ -18,7 +18,7 @@
           </a>
         </li>
         <li>
-          <a href="index.php">
+          <a href="../index.php">
             Strona główna
           </a>
         </li>
