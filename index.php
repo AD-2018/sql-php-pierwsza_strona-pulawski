@@ -46,6 +46,12 @@
           <a href="../inne/dataczas.php">
             Data i czas 
           </a>
+        </li>
+        <li>
+          <a href="../biblioteka/biblioteka.php">
+            Biblioteka
+          </a>
+        </li>
       </ul>
   </aside>
   </nav>
