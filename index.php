@@ -4,7 +4,7 @@
   <meta name="viewport" content="width=device-width">
   <link rel="stylesheet" href="style.css">
   <title>
-    Paweł Puławski
+    Paweł Puławski 3Ti
   </title>
 </head>
 <body>
