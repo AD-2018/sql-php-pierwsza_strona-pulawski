@@ -62,13 +62,10 @@
   </nav>
   <h1>Paweł Puławski <h1>
     <?php
-$servername = "mysql-kcz.alwaysdata.net";
-$username = "kcz";
-$password = "zaq1@WSX";
-$dbname = "kcz_20";
-$conn = new mysqli($servername, $username, $password, $dbname);
+require_once("connect.php");
+
  
-$conn = new mysqli($servername, $username, $password, $dbname);
+
  
 $sql= "SELECT * FROM pracownicy";
 echo("<li>".$sql."<br><br>");

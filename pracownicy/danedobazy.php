@@ -77,11 +77,7 @@
    <input type="submit" value="Usuń pracownika">
 </form>
 <?php
-$servername = "mysql-kcz.alwaysdata.net";
-$username = "kcz";
-$password = "zaq1@WSX";
-$dbname = "kcz_20";
-$conn = new mysqli($servername, $username, $password, $dbname);
+require_once("../connect.php");
 
 $sql = "SELECT * FROM pracownicy, organizacja WHERE id_org = dzial";
 
