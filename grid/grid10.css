@@ -1,0 +1,35 @@
+.str10A {
+    background-color: red;
+    grid-area: a;
+    margin: 5px;
+}
+
+.str10B {
+    background-color: lime;
+    grid-area: b;
+    margin: 5px;
+}
+
+.str10C {
+    background-color: lightskyblue;
+    grid-area: c;
+    margin: 5px;
+}
+
+.str10D {
+    background-color: yellow;
+    grid-area: d;
+    margin: 5px;
+}
+
+.str10E {
+    background-color: yellow;
+    grid-area: e;
+    margin: 5px;
+}
+
+.str10F {
+    background-color: orange;
+    grid-area: f;
+    margin: 5px;
+}

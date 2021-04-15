@@ -1,0 +1,42 @@
+.str6 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "a a b b b b" "a a c c f f" "d d d e f f";
+}
+
+.str6A {
+    background-color: red;
+    grid-area: a;
+    margin: 5px;
+}
+
+.str6B {
+    background-color: lime;
+    grid-area: b;
+    margin: 5px;
+}
+
+.str6C {
+    background-color: lightskyblue;
+    grid-area: c;
+    margin: 5px;
+}
+
+.str6D {
+    background-color: yellow;
+    grid-area: d;
+    margin: 5px;
+}
+
+.str6E {
+    background-color: yellow;
+    grid-area: e;
+    margin: 5px;
+}
+
+.str6F {
+    background-color: orange;
+    grid-area: f;
+    margin: 5px;
+}

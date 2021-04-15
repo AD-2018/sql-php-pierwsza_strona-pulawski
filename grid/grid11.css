@@ -1,0 +1,30 @@
+.str11 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "a a a a b b" "a a a a c c" "a a a a d d";
+}
+
+.str11A {
+    background-color: red;
+    grid-area: a;
+    margin: 5px;
+}
+
+.str11B {
+    background-color: lime;
+    grid-area: b;
+    margin: 5px;
+}
+
+.str11C {
+    background-color: orange;
+    grid-area: c;
+    margin: 5px;
+}
+
+.str11D {
+    background-color: yellow;
+    grid-area: d;
+    margin: 5px;
+}

@@ -1,0 +1,36 @@
+.str9 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-areas: "b b b b b b" "b b b b b b" "b b b b b b" "a a c c c d" "a a c c c d" "a a c c c d" "a a c c c d" "a a c c c d" "a a c c c d" "a a c c c d" "e e e e e e" "e e e e e e";
+}
+
+.str9A {
+    background-color: red;
+    grid-area: a;
+    margin: 5px;
+}
+
+.str9B {
+    background-color: lime;
+    grid-area: b;
+    margin: 5px;
+}
+
+.str9C {
+    background-color: lightskyblue;
+    grid-area: c;
+    margin: 5px;
+}
+
+.str9D {
+    background-color: lightskyblue;
+    grid-area: d;
+    margin: 5px;
+}
+
+.str9E {
+    background-color: yellow;
+    grid-area: e;
+    margin: 5px;
+}

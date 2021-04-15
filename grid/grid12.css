@@ -1,0 +1,60 @@
+.str12 {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(21, 1fr);
+    grid-template-areas: "a a a a a a a b b b b b b b c c c c c c c" "d d d d e e e e e e f f f f g g g g g g g" "h h h h h h h i i i i i i i g g g g g g g";
+}
+
+.str12A {
+    background-color: red;
+    grid-area: a;
+    margin: 5px;
+}
+
+.str12B {
+    background-color: lime;
+    grid-area: b;
+    margin: 5px;
+}
+
+.str12C {
+    background-color: lime;
+    grid-area: c;
+    margin: 5px;
+}
+
+.str12D {
+    background-color: lightskyblue;
+    grid-area: d;
+    margin: 5px;
+}
+
+.str12E {
+    background-color: rgb(255, 0, 170);
+    grid-area: e;
+    margin: 5px;
+}
+
+.str12F {
+    background-color: lightskyblue;
+    grid-area: f;
+    margin: 5px;
+}
+
+.str12G {
+    background-color: orange;
+    grid-area: g;
+    margin: 5px;
+}
+
+.str12H {
+    background-color: rgb(126, 0, 158);
+    grid-area: h;
+    margin: 5px;
+}
+
+.str12I {
+    background-color: yellow;
+    grid-area: i;
+    margin: 5px;
+}
