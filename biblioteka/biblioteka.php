@@ -11,7 +11,7 @@
   <nav class="site-nav">
     <button class="side-menu-trigger">Menu</button>
     <aside class="side-menu">
-      <ul>
+    <ul>
         <li>
           <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
             Github
@@ -52,6 +52,11 @@
             Biblioteka
           </a>
         </li>
+        <li>
+            <a href="../grid/indexgrid.html">
+              Grid
+            </a>
+          </li>
       </ul>
   </aside>
   </nav>

@@ -1,35 +1,41 @@
-.str1 {
+.str4 {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: "a b d" "a c d" "a e d";
+    grid-template-areas: "b b b" "a c d" "a e e";
 }
 
-.str1A {
+.str4A {
     background-color: red;
     grid-area: a;
     margin: 5px;
 }
 
-.str1B {
+.str4B {
     background-color: lime;
     grid-area: b;
     margin: 5px;
 }
 
-.str1C {
+.str4C {
     background-color: lightskyblue;
     grid-area: c;
     margin: 5px;
 }
 
-.str1D {
+.str4D {
     background-color: yellow;
     grid-area: d;
     margin: 5px;
 }
 
-.str1E {
+.str4F {
+    background-color: yellow;
+    grid-area: f;
+    margin: 5px;
+}
+
+.str4E {
     background-color: orange;
     grid-area: e;
     margin: 5px;
