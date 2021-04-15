@@ -4,7 +4,7 @@
 <head>
     <title>Pawel Pulawski</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="grid3.css">
+    <link rel="stylesheet" href="grid.css">
 </head>
 
 <body>
