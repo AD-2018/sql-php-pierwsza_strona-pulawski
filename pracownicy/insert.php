@@ -1,8 +1,6 @@
 <?php
-$servername = "mysql-kcz.alwaysdata.net";
-$username = "kcz";
-$password = "zaq1@WSX";
-$dbname = "kcz_20";
+require_once("../connect.php");
+
 
 echo("jestes w insert.php");
 echo "<li>".$_POST['imie'];
