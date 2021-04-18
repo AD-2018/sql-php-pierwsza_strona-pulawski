@@ -8,6 +8,7 @@
   </title>
 </head>
 <body>
+<?php include menu.php ?>
   <nav class="site-nav">
     <button class="side-menu-trigger">Menu</button>
     <aside class="side-menu">
