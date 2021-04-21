@@ -43,7 +43,7 @@
           </a>
         </li>
         <li>
-            <a href="../grid/indexgrid.html">
+            <a href="../grid/indexgrid.php">
               Grid
             </a>
           </li>
