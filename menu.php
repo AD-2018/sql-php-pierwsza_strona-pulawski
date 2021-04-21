@@ -4,7 +4,7 @@
     <ul>
         <li>
           <a href="https://github.com/AD-2018/sql-php-pierwsza_strona-pulawski">
-            Github
+            Github 
           </a>
         </li>
         <li>
